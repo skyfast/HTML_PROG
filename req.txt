@@ -1,0 +1,22 @@
+The project must include the following:
+• The project web site must have at least 5 pages. Each page must have a distinct purpose.
+• Each page must have a header that is consistent between pages. The header should
+clearly identify the purpose of the site. For example, if the site has a banner “Declawed”,
+it should have a smaller tagline reading, “A competition-free space for women to relate to
+one another” or “The ins and outs of keeping a large predator around little children” or
+“Low cost services for the family pet”.
+• Each page must have a footer that includes the author’s name, copyright, the date the
+page was last modified, and anything else pertinent to your site. The footers must be
+consistent between pages.
+• Each page must have a navigation bar that allows the user to directly go to each
+page. The navigation bar must be consistent between pages.
+• Each page must have at least one paragraph of meaningful text or a table.
+• All pages must use the same CSS file, but you can have other CSS files that are only used
+on certain pages, as long as the overall user experience is consistent between pages.
+• At least one page has to have an embedded style in the head element.
+• The website must include at least 3 figures (containing images) in addition to any images
+contained in the header, footer or navigation bar of the page.
+• All images must have meaningful alt text for blind users.
+• At least one of the pages must contain a table with at least two columns and at least two
+rows. The table must contain column headings.
+• Each page should include section, article, and header semantic elements.

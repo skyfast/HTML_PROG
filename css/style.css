@@ -1,0 +1,73 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body
+{
+  background: url("../pictures/background_main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+
+/* not sure why, but it was getting margins and messing up flex */
+  margin: 0;
+}
+
+#top
+{
+  text-align: center;
+  width: 80%;
+  border: 5px #B3C7D6FF solid;
+  margin: 5px auto;
+  background-color: #2460A7FF;
+  color: white;
+  border-radius: 25px;
+}
+
+#foot
+{
+  text-align: center;
+  width: 100%;
+  border: 0px #B3C7D6FF solid;
+  margin: 0 auto ;
+  background-color: #2460A7FF;
+  color: white;
+
+}
+
+#main_nav
+{
+  text-align: center;
+  width: 80%;
+  border: 5px #2460A7FF solid;
+  margin: auto;
+  background-color: #B3C7D6FF;
+  color: white;
+  border-radius: 25px;
+}
+
+#main_nav ul
+{
+  list-style: none;
+}
+#main_nav ul li
+{
+  display: inline-block;
+  float: left;
+  width: 20%;
+  color: #D9B48FFF;
+  text-decoration: none;
+  background-color: #B3C7D6FF;
+
+}
+
+#main_nav ul li a
+{
+  color: black;
+  text-decoration: none;
+  background-color: #B3C7D6FF;
+  border: 2px solid black;
+  padding: 5px;
+}

@@ -1,0 +1,23 @@
+/* This is just to make the footer sticky
+   I used flex box for this, so I will remove this if
+   It is considered cheating.
+*/
+
+html,
+body
+{
+  height: 100%;
+}
+body
+{
+  display: flex;
+  flex-direction: column;
+}
+.content
+{
+  flex: 1 0 auto;
+}
+.footer
+{
+  flex-shrink: 0;
+}
