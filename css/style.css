@@ -7,8 +7,8 @@
 body
 {
   background: url("../pictures/background_main.png");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
   box-sizing: border-box;
 
 /* not sure why, but it was getting margins and messing up flex */
@@ -42,7 +42,7 @@ body
   text-align: center;
   width: 80%;
   border: 5px #2460A7FF solid;
-  margin: auto;
+  margin: 5px auto;
   background-color: #B3C7D6FF;
   color: white;
   border-radius: 25px;
@@ -70,4 +70,26 @@ body
   background-color: #B3C7D6FF;
   border: 2px solid black;
   padding: 5px;
+}
+
+.img_pfp
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.info_box
+{
+  width: 80%;
+  border: 5px #2460A7FF solid;
+  margin: 5px auto;
+  background-color: #B3C7D6FF;
+  border-radius: 25px;
+}
+.center
+{
+  text-align: center;
 }
