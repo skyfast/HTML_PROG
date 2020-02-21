@@ -15,6 +15,17 @@ body
   margin: 0;
 }
 
+table,
+th,
+td
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  background: #cbac85;
+
+}
+
 #top
 {
   text-align: center;
@@ -63,6 +74,11 @@ body
 
 }
 
+#main_nav ul li a:hover
+{
+  background: #cbac85;
+}
+
 #main_nav ul li a
 {
   color: black;
@@ -89,6 +105,17 @@ body
   background-color: #B3C7D6FF;
   border-radius: 25px;
 }
+
+.table
+{
+    margin: 10px auto;
+
+}
+.padding
+{
+  padding: 4px;
+}
+
 .center
 {
   text-align: center;
