@@ -26,6 +26,11 @@ td
 
 }
 
+a
+{
+  text-decoration: none;
+  color: #2460A7FF;
+}
 #top
 {
   text-align: center;
@@ -109,7 +114,7 @@ td
 .img_education
 {
   height: 300px;
-  width: 80%;
+  width: 60%;
   border: 5px #cbac85 solid;
   border-radius: 5%;
   display: block;
